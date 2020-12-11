@@ -1,0 +1,11 @@
+"use strict";
+var firstName = 'Peter';
+var lastName = 'Parker';
+var age = 18;
+//let text = firstName + '/n' + lastName + '/n' + age;
+var text = firstName + " \n" + lastName + " \n" + age;
+console.log(text);
+var hi = "<h1>Hello</h1>\n    <p>World</p>";
+document.write(hi);
+var message = "The square root of 2000 is " + Math.sqrt(2000);
+console.log(message);
